@@ -9,6 +9,16 @@ const GETNotebooks = async(req, res) => {
     }
 }
 
+const GETPhones = async(req, res) => {
+    try {
+        res.json(await model.getPhones())
+    } catch(err) {
+        console.log(err.message)
+        res.sendStatus(500)
+    }
+}
+
 export default {
-    GETNotebooks
+    GETNotebooks,
+    GETPhones
 }
