@@ -66,3 +66,19 @@ VALUES
 ('OnePlus Nord 5G', 5229000, '8/128 GB Blue. Android 10 Qualcomm SM7250 Snapdragon 765G. Videoprotsessor: Adreno 620', 'https://oasis.opstatics.com/content/dam/oasis/page/2021/ebba/spec/Silver-Ray.png', 'ee439c15-2903-4f43-9b9d-eb35c853aa35' ),
 ('Smartfon OPPO A91', 2843000, '8/128 GB Black. Android 11 MediaTek Helio P70. Videoprotsessor: Adreno 620', 'https://mobile-review.com/news/wp-content/uploads/oppo-a91.png', 'ee439c15-2903-4f43-9b9d-eb35c853aa35' ),
 ('Xiaomi Redmi K50', 9924000, '12/256 GB Black. Android 12, MIUI 13 MediaTek Dimensity 8100 (5 nm). Videoprotsessor: Mali-G610', 'https://i.ebayimg.com/images/g/U5gAAOSwifJiFgRX/s-l500.png', 'ee439c15-2903-4f43-9b9d-eb35c853aa35' );
+
+
+-- appliances
+
+INSERT INTO products(product_name, product_price, product_desc, product_img_link, product_category_id)
+VALUES
+('Kir yuvish mashinasi Bosch', 9650000, 'Super Tez yuvish dasturi ozgina kirlangan kirlarni atigi 30 daqiqada yangilashning qulay usulidir.', 'https://media3.bosch-home.com/Product_Shots/1600x900/MCSA02642741_WAT2846SIN_def.png', 'c8f67f65-128c-4bcf-aaec-12511eabcce7' ),
+('Vacuum cleaner Bosch', 6079000, 'Quvvat:1200 Vt. Xajmi : 6 l. Rangi : Oq', 'https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://media3.bosch-home.com/Product_Shots/435x515/MCSA02323079_i0031_1727169_BGL35MOV24_def.png', 'c8f67f65-128c-4bcf-aaec-12511eabcce7' ),
+('Sovutgich Shivaki ', 7872000, 'Sovutgich Shivaki HD 395 FWENH White - elektron boshqaruv paneli bilan jihozlangan zamonaviy ikki kamerali model', 'https://www.artelgroup.org/upload/product_pictures/395-360.png', 'c8f67f65-128c-4bcf-aaec-12511eabcce7' ),
+('Konditsioner LG P12SP', 7400000, 'Qoshimcha funktsiyalar: deodorizatsiya filtri, plazma filtri, havo oqimi yoʻnalishini sozlanishi, muzlashga qarshi tizim', 'https://www.daikin-info.ru/files/LG/imgs/259295-900x492.png', 'c8f67f65-128c-4bcf-aaec-12511eabcce7' ),
+('Muzlatgich Samsung', 7488000, '37 dB gacha past shovqin darajasini taminlovchi raqamli invertorli kompressor bilan jihozlangan', 'https://toppng.com/uploads/preview/samsung-refrigerator-11552762516shd2b8n9k8.png', 'c8f67f65-128c-4bcf-aaec-12511eabcce7' ),
+('Chang yutgich Samsung', 1252000, '2,4 litrli chang idishi bolgan juda kuchli changyutgich (1800 Vt / 440 Vt)', 'https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://prizma.uz/uploads/product/images/060303-00070/Samsung%20VC18M3120VB-EV_2.png', 'c8f67f65-128c-4bcf-aaec-12511eabcce7' ),
+('Mikrotolqinli pech Panasonic', 1530000, 'GRILL PANASONIC NN-GT261 MIKROTOlqinli pech. olchamlari - kichik oshxona uchun ideal', 'https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://prizma.uz/uploads/product/images/070203-00022/Panasonic_NN-DF383BZPE_1.png', 'c8f67f65-128c-4bcf-aaec-12511eabcce7' ),
+('Gaz Plitasi Shivaki', 3354000, 'SHIVAKI 6403-E gaz plitasi burnerlar uchun avtomatik elektr ateşleme tizimidan foydalanadi', 'https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://prizma.uz/uploads/product/images/070201-00089/Femas_22-2_Bre_White_2.png', 'c8f67f65-128c-4bcf-aaec-12511eabcce7' ),
+('Ventilyator Shivaki', 593000, 'Ventilyator Shivaki uyingizda yoki ofisingizda qulay salqin shabada yaratadi', 'https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://prizma.uz/uploads/product/images/060401-00009/Crown%20FS-4521%20(Iron)_1.png', 'c8f67f65-128c-4bcf-aaec-12511eabcce7' ),
+('Kondisioner Artel Everest', 5499000, 'Past kuchlanish ostida ishlash* 130 v. Maxsus sovuq ishlab chiqarish unumdorligi', 'https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://upload.zoodmall.com/web/product/picture/70/20631370/165063465742288400191.png', 'c8f67f65-128c-4bcf-aaec-12511eabcce7' );
