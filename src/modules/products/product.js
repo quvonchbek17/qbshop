@@ -27,8 +27,18 @@ const GETAppliances = async(req, res) => {
     }
 }
 
+const GETSport = async(req, res) => {
+    try {
+        res.json(await model.getSport())
+    } catch(err) {
+        console.log(err.message)
+        res.sendStatus(500)
+    }
+}
+
 export default {
     GETNotebooks,
     GETPhones,
-    GETAppliances
+    GETAppliances,
+    GETSport
 }

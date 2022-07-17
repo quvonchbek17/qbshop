@@ -82,3 +82,19 @@ VALUES
 ('Gaz Plitasi Shivaki', 3354000, 'SHIVAKI 6403-E gaz plitasi burnerlar uchun avtomatik elektr ateşleme tizimidan foydalanadi', 'https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://prizma.uz/uploads/product/images/070201-00089/Femas_22-2_Bre_White_2.png', 'c8f67f65-128c-4bcf-aaec-12511eabcce7' ),
 ('Ventilyator Shivaki', 593000, 'Ventilyator Shivaki uyingizda yoki ofisingizda qulay salqin shabada yaratadi', 'https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://prizma.uz/uploads/product/images/060401-00009/Crown%20FS-4521%20(Iron)_1.png', 'c8f67f65-128c-4bcf-aaec-12511eabcce7' ),
 ('Kondisioner Artel Everest', 5499000, 'Past kuchlanish ostida ishlash* 130 v. Maxsus sovuq ishlab chiqarish unumdorligi', 'https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://upload.zoodmall.com/web/product/picture/70/20631370/165063465742288400191.png', 'c8f67f65-128c-4bcf-aaec-12511eabcce7' );
+
+
+-- sport
+
+INSERT INTO products(product_name, product_price, product_desc, product_img_link, product_category_id)
+VALUES
+('Basketbol topi', 135000, 'Top olchami: 7. Brend: Sports. Ishlab chiqarilgan joyi: Xitoy', 'https://www.freeiconspng.com/thumbs/basketball-png/basketball-png-7.png', '57ed197d-16c5-4dca-8fee-0332ec852a7f' ),
+('Boks uchun dubulga', 299000, 'Havaskor boks uchun dubulga AIBA tomonidan tasdiqlangan.', 'https://e7.pngegg.com/pngimages/547/372/png-clipart-everlast-boxing-punching-training-bags-martial-arts-boxing-sport-boxing-glove.png', '57ed197d-16c5-4dca-8fee-0332ec852a7f' ),
+('Velo mashq uskunasi', 3260500, 'Jismoniy mashqlar velosipedlari qoshimcha funtlarni samarali engadi', 'https://w7.pngwing.com/pngs/140/13/png-transparent-bicycle-exercise-bikes-indoor-cycling-fitness-centre-spinning-physical-fitness-bicycle-indoor-cycling.png', '57ed197d-16c5-4dca-8fee-0332ec852a7f' ),
+('Yugurish yolagi', 10450000, 'Innovatsion Shure SH-T9130 yugurish yolagi dizayni kardiyo mashgulotlari uchun maqbul', 'https://toppng.com/uploads/preview/treadmill-11550712504s8omihapjz.png', '57ed197d-16c5-4dca-8fee-0332ec852a7f' ),
+('Voleybol topi', 220000, 'Nike 1000 Softset mashgulot topi boshlangich voleybolchilar uchun ajoyib tanlov boladi', 'https://www.citypng.com/public/uploads/preview/hd-yellow-blue-and-white-volleyball-ball-png-11650768059jxxkt2zkgu.png', '57ed197d-16c5-4dca-8fee-0332ec852a7f' ),
+('Rolikli konki', 305000, 'Qulay va ishonchli Cougar konkilari bolalar uchun ajoyib sovgadir', 'https://w7.pngwing.com/pngs/243/61/png-transparent-quad-skates-roller-skates-in-line-skates-roller-skating-inline-skating-roller-skates-purple-retro-outdoor-shoe.png', '57ed197d-16c5-4dca-8fee-0332ec852a7f' ),
+('CITY BIKE ALTAIR', 210000, 'ALTAIR CITY low 28 dyuymli shahar ayollar velosipedi shaharda qulay harakatlanish uchun', 'https://w7.pngwing.com/pngs/822/569/png-transparent-single-speed-bicycle-mountain-bike-bicycle-derailleurs-cycling-bicycle-bicycle-frame-bicycle-mode-of-transport-thumbnail.png', '57ed197d-16c5-4dca-8fee-0332ec852a7f' ),
+('Elektr skuter Xiaomi', 6999000, 'Skuter dizayni va muhandislik fikridagi qulaylik va gozallikning ajoyib kombinatsiyasi', 'https://toppng.com/uploads/preview/xiaomi-mijia-electric-scooter-m365-11549765064nvpvsimrdg.png', '57ed197d-16c5-4dca-8fee-0332ec852a7f' ),
+('Borussia Dortmund kiyimi', 165000, 'Borussia Dortmund 2021-22 mavsum uy formasi', 'https://w7.pngwing.com/pngs/392/649/png-transparent-borussia-dortmund-2016-17-uefa-champions-league-third-jersey-kit-shirt-tshirt-logo-active-shirt.png', '57ed197d-16c5-4dca-8fee-0332ec852a7f' ),
+('Sport sumkasi', 795000, 'Bardoshli polyesterdan tayyorlangan Head sumkasi mashgulotingiz uchun eng zor tanlovdir', 'https://toppng.com/uploads/preview/sport-duffle-bag-11530978515vq30quznj2.png', '57ed197d-16c5-4dca-8fee-0332ec852a7f' );
